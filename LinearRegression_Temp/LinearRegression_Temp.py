@@ -1,9 +1,12 @@
 import numpy as np
-import matplotlib.pyplot as plt
 from scipy import stats
+import pandas as pd
 
-x_data = np.array([34.0, 35.5, 36.7, 37.8, 38.6])
-y_data = np.array([34.2, 35.8, 37.0, 38.1, 38.8])
+file_path = 'data.xlsx'
+df = pd.read_excel(file_path)
+
+x_data = df.iloc[:, 0].values
+y_data = df.iloc[:, 1].values
 
 slope, intercept, r_value, p_value, std_err = stats.linregress(x_data, y_data)
 

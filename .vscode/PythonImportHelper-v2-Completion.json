@@ -28,19 +28,19 @@
     {
         "label": "x_data",
         "kind": 5,
-        "importPath": "LinearRegression_Temp",
-        "description": "LinearRegression_Temp",
-        "peekOfCode": "x_data = np.array([34.0, 35.5, 36.7, 37.8, 38.6])\ny_data = np.array([34.2, 35.8, 37.0, 38.1, 38.8])\nslope, intercept, r_value, p_value, std_err = stats.linregress(x_data, y_data)",
-        "detail": "LinearRegression_Temp",
+        "importPath": "LinearRegression_Temp.LinearRegression_Temp",
+        "description": "LinearRegression_Temp.LinearRegression_Temp",
+        "peekOfCode": "x_data = np.array([34.0, 35.5, 36.7, 37.8, 38.6])\ny_data = np.array([34.2, 35.8, 37.0, 38.1, 38.8])\nslope, intercept, r_value, p_value, std_err = stats.linregress(x_data, y_data)\nprint(f\"LinearFittingFormula: y = {slope:.4f} * x + {intercept:.4f}\")\nprint(f\"Correlation coefficient (R²): {r_value**2:.4f}\")",
+        "detail": "LinearRegression_Temp.LinearRegression_Temp",
         "documentation": {}
     },
     {
         "label": "y_data",
         "kind": 5,
-        "importPath": "LinearRegression_Temp",
-        "description": "LinearRegression_Temp",
-        "peekOfCode": "y_data = np.array([34.2, 35.8, 37.0, 38.1, 38.8])\nslope, intercept, r_value, p_value, std_err = stats.linregress(x_data, y_data)",
-        "detail": "LinearRegression_Temp",
+        "importPath": "LinearRegression_Temp.LinearRegression_Temp",
+        "description": "LinearRegression_Temp.LinearRegression_Temp",
+        "peekOfCode": "y_data = np.array([34.2, 35.8, 37.0, 38.1, 38.8])\nslope, intercept, r_value, p_value, std_err = stats.linregress(x_data, y_data)\nprint(f\"LinearFittingFormula: y = {slope:.4f} * x + {intercept:.4f}\")\nprint(f\"Correlation coefficient (R²): {r_value**2:.4f}\")",
+        "detail": "LinearRegression_Temp.LinearRegression_Temp",
         "documentation": {}
     }
 ]
