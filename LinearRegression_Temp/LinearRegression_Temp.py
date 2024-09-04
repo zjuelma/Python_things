@@ -1,4 +1,3 @@
-import numpy as np
 from scipy import stats
 import pandas as pd
 
@@ -11,5 +10,6 @@ y_data = df.iloc[:, 1].values
 slope, intercept, r_value, p_value, std_err = stats.linregress(x_data, y_data)
 
 print(f"LinearFittingFormula: y = {slope:.4f} * x + {intercept:.4f}")
-print(f"Correlation coefficient (R²): {r_value**2:.4f}")
+print(x_data)
+print(y_data)
 
